@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="laki_laki">Laki-Laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="back">Back</string>
+    <string name="action_sign_in" />
+    <item type="integer" name="login" format="integer">100</item>
+</resources>

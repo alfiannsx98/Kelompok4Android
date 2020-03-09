@@ -1,0 +1,2 @@
+rootProject.name='buat_biodata'
+include ':app'

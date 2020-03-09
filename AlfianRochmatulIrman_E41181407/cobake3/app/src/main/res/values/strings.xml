@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">belajarke2</string>
+    <string name="To">To</string>
+    <string name="Send">Send</string>
+    <string name="subject">Subject</string>
+    <string name="Message">Message</string>
+
+</resources>

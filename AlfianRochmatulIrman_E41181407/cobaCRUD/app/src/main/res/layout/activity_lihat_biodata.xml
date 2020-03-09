@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".LihatBiodata">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="104dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/textview"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="104dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="20dp"
+        android:text="@string/textview"
+        android:layout_alignEnd="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text="@string/textview"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:text="@string/textview"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/textView4"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="20dp"
+        android:text="@string/textview"
+        android:layout_alignEnd="@id/textView4" />
+
+    <TextView
+        android:id="@id/textView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textView5"
+        android:layout_alignBottom="@id/textView5"
+        android:layout_alignLeft="@+id/TextView03"
+        android:layout_alignStart="@+id/TextView03" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textView4"
+        android:layout_alignBottom="@id/textView4"
+        android:layout_alignLeft="@id/textView04"
+        android:text="@string/jenis_kelamin"
+        android:layout_alignStart="@id/textView04" />
+
+    <TextView
+        android:id="@id/textView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textView3"
+        android:layout_alignBottom="@id/textView3"
+        android:layout_alignLeft="@+id/TextView02"
+        android:text="@string/tanggal_lahir"
+        android:layout_alignStart="@+id/TextView02" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textView2"
+        android:layout_alignBottom="@id/textView2"
+        android:layout_alignLeft="@+id/TextView01"
+        android:text="@string/nama"
+        android:layout_alignStart="@+id/TextView01" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textView2"
+        android:layout_alignParentLeft="true"
+        android:text="@string/nomor"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView05"
+        android:layout_below="@id/textView05"
+        android:layout_marginTop="34dp"
+        android:text="@string/kembali"
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_alignStart="@id/textView05" />
+</RelativeLayout>
