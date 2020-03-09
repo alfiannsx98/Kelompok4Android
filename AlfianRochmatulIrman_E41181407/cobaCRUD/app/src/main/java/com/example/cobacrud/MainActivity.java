@@ -86,7 +86,10 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 });
+                builder.create().show();
             }
         });
+
+        ((ArrayAdapter)ListView01.getAdapter()).notifyDataSetInvalidated();
     }
 }
