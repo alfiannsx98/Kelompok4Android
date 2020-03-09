@@ -75,10 +75,17 @@ public class MainActivity extends AppCompatActivity {
                                 startActivity(i);
                                 break;
                             case 1:
-                                Intent intent = new Intent(MainActivity.this, UpdateBiodata.class)
+                                Intent intent = new Intent(MainActivity.this, UpdateBiodata.class);
+                                intent.putExtra("nama", selection);
+                                break;
+                            case 2:
+                                SQLiteDatabase db = dbcenter.getWritableDatabase();
+                                db.execSQL("DELETE FROM biodata WHERE nama = '"+selection+"'");
+                                RefreshList();
+                                break;
                         }
                     }
-                })
+                });
             }
         });
     }
