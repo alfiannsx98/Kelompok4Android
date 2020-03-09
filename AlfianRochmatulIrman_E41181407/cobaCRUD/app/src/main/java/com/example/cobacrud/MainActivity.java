@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
                             case 1:
                                 Intent intent = new Intent(MainActivity.this, UpdateBiodata.class);
                                 intent.putExtra("nama", selection);
+                                startActivity(intent);
                                 break;
                             case 2:
                                 SQLiteDatabase db = dbcenter.getWritableDatabase();
