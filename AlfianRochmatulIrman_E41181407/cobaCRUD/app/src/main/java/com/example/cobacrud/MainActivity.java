@@ -1,7 +1,9 @@
 package com.example.cobacrud;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -59,7 +61,24 @@ public class MainActivity extends AppCompatActivity {
         ListView01.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                
+                final String selection = daftar[position];
+                final CharSequence[] dialogItem = {"Lihat Biodata", "Update Biodata", "Hapus Biodata"};
+                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                builder.setTitle("Pilihan");
+                builder.setItems(dialogItem, new DialogInterface.OnClickListener(){
+                    @Override
+                    public void onClick(DialogInterface dialog, int item){
+                        switch (item){
+                            case 0:
+                                Intent i = new Intent(MainActivity.this, LihatBiodata.class);
+                                i.putExtra("nama", selection);
+                                startActivity(i);
+                                break;
+                            case 1:
+                                Intent intent = new Intent(MainActivity.this, UpdateBiodata.class)
+                        }
+                    }
+                })
             }
         });
     }
