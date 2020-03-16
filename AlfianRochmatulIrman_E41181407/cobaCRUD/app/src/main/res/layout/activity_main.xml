@@ -29,8 +29,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:drawableLeft="@mipmap/icon_add1"
-        android:drawableStart="@mipmap/icon_add1" />
+        android:drawableLeft="@drawable/ic_done"
+        android:drawableStart="@drawable/ic_done" />
 
 
 
