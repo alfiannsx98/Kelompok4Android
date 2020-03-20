@@ -14,7 +14,8 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaAdapter.Maha
 
     private ArrayList<mahasiswa> dataList;
 
-    public MahasiswaAdapter(ArrayList<mahasiswa> dataList){
+    public MahasiswaAdapter(ArrayList<mahasiswa> dataList)
+    {
         this.dataList = dataList;
     }
 
