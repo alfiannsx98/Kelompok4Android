@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GetCurrentLocation</string>
+    <string name="get_current_location" />
+</resources>
