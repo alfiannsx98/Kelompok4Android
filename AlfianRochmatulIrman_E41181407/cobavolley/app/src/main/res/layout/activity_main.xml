@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Register FORM"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+   <EditText
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/EditTextFullName"
+       android:layout_below="@+id/textView"
+       android:layout_marginTop="20dp"
+       android:hint="@string/enter_your_full_name"
+       android:gravity="center" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextEmail"
+        android:layout_below="@+id/EditTextFullName"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_your_email"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextPassword"
+        android:layout_below="@+id/EditTextEmail"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="@string/enter_your_password"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/click_here_to_register"
+        android:layout_below="@+id/EditTextPassword"
+        android:id="@+id/ButtonRegister"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">cobavolley</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="click_here_to_register">Click Here to Register</string>
+    <string name="Register_FORM" />
+</resources>
