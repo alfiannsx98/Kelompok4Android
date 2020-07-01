@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">JTI PKL</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="button_sign_up">Sign up</string>
+    <string name="button_sign_out">Sign Out</string>
+    <string name="button_download">Download Panduan</string>
+    <string name="button_send">Send</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_signin_message">Hello, sign in to your account</string>
+    <string name="text_login_message">Hello, sign in to your account</string>
+    <string name="text_status_message">Status PKL </string>
+    <string name="text_signin_social_media">Or Sign in using social media</string>
+    <string name="text_signup_social_media">Or Sign up using social media</string>
+    <string name="text_signin_signup">Don\'t have an account? <b>Sign up</b></string>
+    <string name="text_signup_terms">By signing up, you agree to our <b>terms and conditions</b></string>
+    <string name="text_signup_message">Hello, let\'s set up your account</string>
+
+    <string name="text_forgot_password_title">Forgot password? No worries</string>
+    <string name="text_forgot_password_message">We will send you a link to reset your password</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_nim">NIM</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="title_activity_navbar">MainActivity</string>
+    <string name="title_log">Agenda</string>
+    <string name="title_home">Home</string>
+    <string name="title_user">User</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_log">Logbook</string>
+    <string name="nav_notif">Notification</string>
+    <string name="nav_user">User</string>
+
+    <string name="judul_log">Logbook</string>
+    <string name="judul_notification">Notification</string>
+    <string name="judul_user">User Setting</string>
+    <string name="judul_dashboard">Dashboard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
